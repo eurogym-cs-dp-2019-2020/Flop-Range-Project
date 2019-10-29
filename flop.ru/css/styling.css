@@ -76,10 +76,12 @@ header a:hover {
 
 #showcase {
     min-height: 400px;
-    background:url(../img/showcase.png) no-repeat 760px 0px;
-    background-size: 1000px;
+    background:url(../img/showcase1.jpeg) no-repeat 200px 0px;
+    background-position: center center;
+    background-size: auto;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: #5e0404;;
+    text-shadow: #cccccc 3px;
     border-bottom: rgb(163, 5, 5) 5px solid;
 }
 
