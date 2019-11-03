@@ -76,11 +76,12 @@ header a:hover {
 
 #showcase {
     min-height: 400px;
-    background:url(../img/showcase1.jpeg) no-repeat 200px 0px;
+    background:url(../img/showcase1.png) no-repeat 200px 0px;
     background-position: center center;
-    background-size: auto;
+    background-size: cover;
+    background-clip: padding-box;
     text-align: center;
-    color: #5e0404;;
+    color: #ffffff;;
     text-shadow: #cccccc 3px;
     border-bottom: rgb(163, 5, 5) 5px solid;
 }
@@ -98,11 +99,24 @@ header a:hover {
 /* boxes */
 
 #boxes {
-    margin-top: 20px;
+    margin-top: 0px;
+    background: #35424a;
 }
 
 #boxes .box {
     float: left;
     width: 30%;
     padding: 10px;
+    text-align: center;
+}
+
+#boxes .box img{
+    width: 110px;
+}
+
+footer {
+    padding: 30px;
+    margin-top: 0px;
+    color: #ffffff;
+    background-color: #5e0404;
 }
