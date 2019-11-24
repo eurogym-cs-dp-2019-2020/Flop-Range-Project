@@ -1,0 +1,243 @@
+/* NAV */
+
+header {
+     background-color:rgb(8, 64, 168);
+     padding: 65px ;   
+     margin-bottom: 0px;    
+     font-size: 19px; 
+     font-family: Arial, Helvetica, sans-serif; 
+     color: rgb(0, 0, 0)}
+.nav {
+    width: fit-content;
+    margin-left: 545px;}
+
+ /* Margins */
+
+.kom, .NACH,
+.DET, .boxes, footer,
+.middle_highschool, #boxes, .Management {
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+/* top-to-bottom */
+
+.kom {
+    font: 30px Arial black;
+    font-weight: 100;
+}
+
+.boxes {
+    display: flex;
+    text-align: center;
+    justify-content: left;
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 50px;
+}
+
+h3 {
+    margin: 0px;
+    padding: 0px;
+}
+.box1 {
+    font-size: 20px;
+    font-weight: 100;
+    margin-right: 0px;
+    margin: 0px 0px 10px 0px;
+    margin-left: 5px;
+    background-color: blue;
+    padding: 10px;
+    padding-bottom: 10px;
+    padding-right: 200px;
+    text-align: start;
+}
+
+.box2 {
+    font-size: 20px;
+    font-weight: 100;
+    margin: 0px 10px 10px 10px;
+    margin-left: 5px;
+    background-color: green;
+    padding: 10px;
+    padding-bottom: 10px;
+    padding-right: 150px;
+    text-align: start;
+}
+
+.box3 {
+    font-size: 20px;
+    font-weight: 100;
+    margin: 0px 10px 10px 10px;
+    background-color: yellow;
+    margin-left: 5px;
+    padding: 10px;
+    padding-bottom: 100px;
+    padding-right: 150px;
+    text-align: start;
+}
+
+.box4 {
+    font-size: 20px;
+    font-weight: 100;
+    margin: 0px 10px 10px 0px;
+    background-color: red;
+    padding: 10px;
+    padding-bottom: 10px;
+    padding-right: 150px;
+    text-align: start;
+}
+
+h2 {
+    font: 60px Arial rgb(8, 64, 168);
+    font-weight: 100px;
+}
+
+.title_sr {
+    padding-bottom: 5px;
+    text-align: center;
+    float: inline-start;
+    font: bold;
+    color: rgb(8, 64, 168);
+    border-bottom-style: solid;
+    border-bottom-color: rgb(8, 64, 168) ;
+    border-top-style: solid;
+    border-top-color: rgb(8, 64, 168) ;
+}
+
+.list {
+    padding-top: 70px;
+    padding-bottom: 20px;
+    display: flex;
+    align-content: stretch;
+    flex-direction: row;
+}
+
+.pic {
+    margin-right: 9px;
+    margin-left: 9px;
+}
+
+.pic_s {
+    margin-right: 9px;
+}
+
+.pic_l {
+    margin-left: 9px;
+}
+
+h4 {
+    color: rgb(8, 64, 168);
+    font-weight: 100;
+}
+
+.title_nach {
+    padding-bottom: 5px;
+    text-align: center;
+    float: inline-start;
+    font: bold;
+    color: rgb(8, 64, 168);
+    border-bottom-style: solid;
+    border-bottom-color: rgb(8, 64, 168) ;
+    border-top-style: solid;
+    border-top-color: rgb(8, 64, 168) ;
+}
+
+.title_det {
+    padding-bottom: 5px;
+    text-align: center;
+    float: inline-start;
+    font: bold;
+    color: rgb(8, 64, 168);
+    border-bottom-style: solid;
+    border-bottom-color: rgb(8, 64, 168) ;
+    border-top-style: solid;
+    border-top-color: rgb(8, 64, 168) ;
+}
+
+.title_man {
+    padding-bottom: 5px;
+    text-align: center;
+    float: inline-start;
+    font: bold;
+    color: rgb(8, 64, 168);
+    border-bottom-style: solid;
+    border-bottom-color: rgb(8, 64, 168) ;
+    border-top-style: solid;
+    border-top-color: rgb(8, 64, 168) ;
+}
+
+main {
+    background-color: rgb(226, 226, 226);
+}
+
+footer {
+    background-color: rgb(58, 58, 58);
+    padding-top: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+} 
+
+.INF {
+    padding-bottom: 5px;
+    font: bold;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    border-bottom-style: solid;
+    border-bottom-color: rgb(255, 255, 255) ;
+    margin-left: 600px;
+    margin-right: 600px;
+    padding-left: 120px;
+}
+
+.info1 {
+    margin-left: 600px;
+    margin-right: 150px;
+    padding-bottom: 40px;
+    float: left;
+    color: #ffffff;
+}
+
+.info2 {
+    padding-bottom: 40px;
+    margin-right: 600px;
+    color: #ffffff;
+}
+
+.left0 {
+    float: left;
+    font-size: 20px;
+}
+
+.right0 {
+    float: right;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.right {
+    margin-left: 1600px;
+    margin-bottom: 100px;
+    position: relative;
+    top: -213px;
+}
+
+a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
+
+.at{
+    color: white;
+}
