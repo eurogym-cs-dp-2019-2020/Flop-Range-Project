@@ -2,16 +2,17 @@
 
 header {
      background-color:rgb(8, 64, 168);
-     padding: 65px ;   
+     padding: 65px ;
+    
      margin-bottom: 0px;    
      font-size: 19px; 
-     font-family: Arial, Helvetica, sans-serif; 
+     font-family: "woff.ttf", Helvetica, sans-serif; 
      color: rgb(0, 0, 0)}
 .nav {
     width: fit-content;
-    margin-left: 545px;}
+}
 
- /* Margins */
+ /* Margins, cols */
 
 .kom, .NACH,
 .DET, .boxes, footer,
@@ -20,9 +21,265 @@ header {
     margin-right: 600px;
 }
 
+.col-1 {
+    flex-basis: 5%;
+  }
+  
+  .col-2 {
+    flex-basis: 10%;
+  }
+  
+  .col-3 {
+    flex-basis: 15%;
+  }
+  
+  .col-4 {
+    flex-basis: 20%;
+  }
+  
+  .col-5 {
+    flex-basis: 25%;
+  }
+  
+  .col-6 {
+    flex-basis: 30%;
+  }
+  
+  .col-7 {
+    flex-basis: 35%;
+  }
+  
+  .col-8 {
+    flex-basis: 40%;
+  }
+  
+  .col-9 {
+    flex-basis: 45%;
+  }
+  
+  .col-10 {
+    flex-basis: 50%;
+  }
+  
+  .col-11 {
+    flex-basis: 55%;
+  }
+  
+  .col-12 {
+    flex-basis: 60%;
+  }
+  
+  .col-13 {
+    flex-basis: 65%;
+  }
+  
+  .col-14 {
+    flex-basis: 70%;
+  }
+  
+  .col-15 {
+    flex-basis: 75%;
+  }
+  
+  .col-16 {
+    flex-basis: 80%;
+  }
+  
+  .col-17 {
+    flex-basis: 85%;
+  }
+  
+  .col-18 {
+    flex-basis: 90%;
+  }
+  
+  .col-19 {
+    flex-basis: 95%;
+  }
+  
+.col-20 {
+   flex-basis: 100%;
+}
+@font-face {
+font-family: woff;
+font-display: swap;
+src: url('woff.ttf');
+}
+  
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-13, .col-14, .col-15, .col-16, .col-17, .col-18, .col-20 {
+padding-left: 8px;
+padding-right: 8px;
+box-sizing: border-box;
+}
+.logo{
+    display: flex;
+    flex: right;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+    background-color: rgb(61, 61, 189);
+    height: 120px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    font-size: 20px;}
+
+  .navteam {
+    color: red;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+    font-size: 13.5pt;
+  }
+  .navedu{
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+  }
+  .navadd{
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+  }
+  .naveng{
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: rgb(226, 226, 226);
+    padding-left: 560px;
+    padding-right:560px;
+  }
+  
+  .main {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+  }
+  
+  .nav {
+    display: flex;
+    background: rgb(226, 226, 226);
+    flex-direction: row;
+    padding: 5px;
+    justify-content: space-around;
+    font-size: 20px;
+  
+  }
+  A IMG{
+    border: 0;
+  }
+  .navmiddle {
+   
+    background-color:rgb(204, 22, 22);;
+    padding: 30px;
+    margin: 10px;
+    padding-bottom: 120px;
+  }
+  
+  .navprimary {
+    background-color: rgb(248, 163, 6);
+    padding: 30px;
+    margin: 10px;
+  }
+  
+  .navkinder {
+    background-color: rgb(10, 126, 10);
+    padding: 30px;
+    margin: 10px;
+  }
+  
+  .navmanage {
+    background-color: rgb(28, 28, 173);
+    padding: 30px;
+    margin: 10px;
+  }
+  .tteam{
+    font-size: 36.5pt;
+    padding-left: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: left;
+  }
+  hr {
+    border: none; 
+    background-color:rgb(61, 61, 189); 
+    color: rgb(61, 61, 189);
+    height: 2px; 
+  }
+  body {
+    background: rgb(226, 226, 226);
+    background-color: rgb(226, 226, 226);
+    font-family: 'woff';
+  }
+  
+  .management_team {
+    align-content: flex-end;
+    display: flex;
+    flex-shrink: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: rgb(61, 61, 189);
+  }
+  
+  .kindergarden {
+    align-content: flex-end;
+    display: flex;
+    flex-shrink: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: rgb(61, 61, 189);
+  }
+  
+  .primary {
+    align-content: flex-end;
+    display: flex;
+    flex-shrink: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: rgb(61, 61, 189);
+  }
+  
+  .middle {
+    align-content: flex-end;
+    display: flex;
+    flex-shrink: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: rgb(61, 61, 189);
+    padding: 30px;
+    margin: 10px;
+  }
+
+  .managet {
+    color: rgb(61, 61, 189);
+    font-size :24pt ;
+  }
+  
+  .primaryt {
+    color: rgb(61, 61, 189);
+    font-size :24pt ;
+  }
+  
+  .kindert {
+    font-size :24pt ;
+    color: rgb(61, 61, 189);
+  }
+
+  .middlet {
+    color: rgb(61, 61, 189);
+    font-size :24pt ;
+  }
 /* top-to-bottom */
 
-.kom {
+ .kom {
     font: 30px Arial black;
     font-weight: 100;
 }
@@ -49,7 +306,7 @@ h3 {
     margin-right: 0px;
     margin: 0px 0px 10px 0px;
     margin-left: 5px;
-    background-color: blue;
+    background-color: rgb(61, 61, 189);
     padding: 10px;
     padding-bottom: 10px;
     padding-right: 200px;
